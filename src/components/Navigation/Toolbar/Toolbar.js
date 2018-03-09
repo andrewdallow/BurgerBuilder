@@ -5,9 +5,9 @@ import classes from './Toolbar.css';
 import NavigationItems from '../NavigationItems/NavagationItems';
 import MenuIcon from '../SideDraw/MenuIcon/MenuIcon';
 
-const toolbar = (props) => (
+const toolbar = props => (
   <header className={classes.Toolbar}>
-    <MenuIcon clicked={props.menu}/>
+    <MenuIcon clicked={props.menu} />
     <div className={classes.Logo}>
       <Logo />
     </div>

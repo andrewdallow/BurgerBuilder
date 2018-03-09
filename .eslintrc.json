@@ -1,0 +1,17 @@
+{
+  "extends": ["airbnb", "react", "prettier"],
+  "rules": {
+    "react/jsx-filename-extension": [1, {
+      "extensions": [".js", ".jsx"]
+    }],
+    "no-restricted-syntax": 0,
+    "no-alert": 0,
+    "react/no-array-index-key": 0,
+    "space-before-function-paren": 0,
+    "react/prop-types": 0,
+    "jsx-a11y/href-no-hash": 0,
+    "jsx-a11y/anchor-is-valid": ["warn", {
+      "aspects": ["invalidHref"]
+    }]
+  }
+}
